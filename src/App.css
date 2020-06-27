@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-top: 32px;
+}
+
+.TodoList p {
+    margin: 0;
+}
+
+.TodoList {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.TodoList img {
+    width: 26px;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+.TodoList img:hover {
+    cursor: pointer;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Header {
+    display: flex;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+
+.Header input {
+    padding: 8px;
+    border: none;
+}
+
+.Header input:focus {
+    outline: none;
+}
+
+.Header img {
+    margin-right: 16px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

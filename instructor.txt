@@ -1,0 +1,1 @@
+Khai báo 1 biến để dùng lại : const { todoItem} = this.state
